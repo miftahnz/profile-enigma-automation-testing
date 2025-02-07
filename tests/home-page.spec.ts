@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { HomePage } from "../pages/HomePage";
+import { HomePage } from "../pages/home-page";
 
 test.describe("Homepage Tests", () => {
   test("Homepage should load successfully", async ({ page }) => {
